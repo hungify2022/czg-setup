@@ -1,0 +1,149 @@
+{
+  "alias": {
+    "fd": "docs: fix typos"
+  },
+  "types": [
+    {
+      "value": "feat",
+      "name": "✨ feat:\tAdding a new feature",
+      "emoji": ":sparkles:"
+    },
+    {
+      "value": "fix",
+      "name": "🐛 fix:\tFixing a bug",
+      "emoji": ":bug:"
+    },
+    {
+      "value": "wip",
+      "name": "🚧 wip:\tWork in progress",
+      "emoji": ":construction:"
+    },
+    {
+      "value": "style",
+      "name": "💄 style:\tAdd or update styles, ui or ux",
+      "emoji": ":lipstick:"
+    },
+    {
+      "value": "refactor",
+      "name": "♻️ refactor:\tCode change that neither fixes a bug nor adds a feature",
+      "emoji": ":recycle:"
+    },
+    {
+      "value": "docs",
+      "name": "📝 docs:\tAdd or update documentation",
+      "emoji": ":memo:"
+    },
+    {
+      "value": "perf",
+      "name": "⚡️ perf:\tCode change that improves performance",
+      "emoji": ":zap:"
+    },
+    {
+      "value": "test",
+      "name": "✅ test:\tAdding tests cases",
+      "emoji": ":white_check_mark:"
+    },
+    {
+      "value": "revert",
+      "name": "⏪️ revert:\tRevert to a commit",
+      "emoji": ":rewind:"
+    },
+    {
+      "value": "build",
+      "name": "👷 build:\tAdd or update regards to build process",
+      "emoji": ":construction_worker:"
+    },
+    {
+      "value": "ci",
+      "name": "🐎 ci:\tAdd or update regards to CI process",
+      "emoji": ":racehorse:"
+    },
+    {
+      "value": "chore",
+      "name": "🤖 chore:\tAdd or update regards to chores",
+      "emoji": ":robot:"
+    },
+    {
+      "value": "types",
+      "name": "🏷️ types:\tAdd or update regards to types",
+      "emoji": ":label:"
+    },
+    {
+      "value": "release",
+      "name": "🔖 release:\tRelease a new version",
+      "emoji": ":bookmark:"
+    }
+  ],
+  "scopes": [
+    {
+      "name": "all platforms"
+    },
+    {
+      "name": "desktop"
+    },
+    {
+      "name": "mobile"
+    },
+    {
+      "name": "packages"
+    },
+    {
+      "name": "unit test"
+    },
+    {
+      "name": "settings"
+    },
+    {
+      "name": "code convention"
+    }
+  ],
+  "messages": {
+    "type": "********* 🎼🎧🎉 Select the type of change that you're committing *********",
+    "scope": "\n😪 Denote the SCOPE of this change (optional):",
+    "customScope": "🎁 Denote the SCOPE of this change:",
+    "subject": "🔖 Subject - Write a SHORT, IMPERATIVE tense description of the change:\n",
+    "body": "📝 Body - Provide a LONGER description of the change (optional). Use \"|\" to break new line:\n",
+    "breaking": "💥 List any BREAKING CHANGES (optional):\n",
+    "footer": "🔚 List any ISSUES CLOSED by this change (optional). E.g.: #31, #34:\n",
+    "confirmCommit": "😄 Are you sure you want to proceed with the commit above?"
+  },
+  "useEmoji": false,
+  "emojiAlign": "left",
+  "useAI": false,
+  "aiNumber": 1,
+  "themeColorCode": "",
+  "allowCustomScopes": true,
+  "allowEmptyScopes": true,
+  "customScopesAlign": "bottom",
+  "customScopesAlias": "custom",
+  "emptyScopesAlias": "empty",
+  "upperCaseSubject": false,
+  "markBreakingChangeMode": false,
+  "allowBreakingChanges": [
+    "feat",
+    "fix"
+  ],
+  "breaklineNumber": 100,
+  "breaklineChar": "|",
+  "skipQuestions": [],
+  "issuePrefixes": [
+    {
+      "value": "closed",
+      "name": "closed:   ISSUES has been processed"
+    }
+  ],
+  "customIssuePrefixAlign": "top",
+  "emptyIssuePrefixAlias": "skip",
+  "customIssuePrefixAlias": "custom",
+  "allowCustomIssuePrefix": true,
+  "allowEmptyIssuePrefix": true,
+  "confirmColorize": true,
+  "maxHeaderLength": Infinity,
+  "maxSubjectLength": 100,
+  "minSubjectLength": 0,
+  "scopeOverrides": undefined,
+  "defaultBody": "",
+  "defaultIssues": "",
+  "defaultScope": "",
+  "defaultSubject": ""
+}
